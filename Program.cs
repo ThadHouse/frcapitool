@@ -7,7 +7,7 @@ while (true)
 {
     using HttpClient client = new()
     {
-        BaseAddress = new Uri("http://10.0.100.2"),
+        BaseAddress = new Uri("http://10.56.78.4"),
         Timeout = TimeSpan.FromSeconds(1),
     };
     try
